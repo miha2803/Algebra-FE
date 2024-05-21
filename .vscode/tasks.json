@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "JS/Parcijalni ispit",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - JS/Parcijalni ispit",
+			"detail": "./node_modules/.bin/browserify index.js -o bundle.js -t [ babelify ]"
+		}
+	]
+}
